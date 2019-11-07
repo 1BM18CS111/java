@@ -19,12 +19,12 @@ class gene <T>{
 
 class main{
 	public static void main(String arg[]){
-		gene <Integer> g = new gene <Integer>(50);
+		gene <Integer> g = new gene <Integer>(5013);
 		int x = g.ret();
 		System.out.println(x);
 		g.showtype();
 		
-		gene<String> s = new gene <String>("meme");
+		gene<String> s = new gene <String>("hello friends");
 		String y = s.ret();
 		System.out.println(y);
 		s.showtype();
